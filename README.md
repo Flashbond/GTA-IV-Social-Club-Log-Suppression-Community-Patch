@@ -2,7 +2,7 @@
 
 ## The Issue
 
-Excessive Social Club logging has been observed with the downloadable release of GTA IV version 1.2.0.59. The `socialclub_LOG.txt` file may grow continuously while the game is running, with repeated entries being written over and over.
+Excessive Social Club logging has been observed with the downloadable release of GTA IV Complete Edition v1.2.0.59. The `socialclub_LOG.txt` file may grow continuously while the game is running, with repeated entries being written over and over.
 
 This constant logging activity may contribute to longer loading times and reduced in-game frame rates. Suppressing the repeated formatted output may reduce this overhead, potentially shortening loading times and improving FPS on affected systems. The actual performance impact varies depending on the system and DLL build.
 
