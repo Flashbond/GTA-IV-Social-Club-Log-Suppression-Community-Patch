@@ -34,18 +34,23 @@ Do not apply the patch just because it is available. Use it only if you understa
 
 ## How to Use
 
-**Close GTA IV before running the patch.**
+Close GTA IV before running the patch.
 
-1. Download `Patch-SocialClubLog.ps1`.
-2. Place the script in the GTA IV game folder, alongside `socialclub.dll`.
-3. If Windows has blocked the downloaded file, right-click `Patch-SocialClubLog.ps1` and select **Properties**.
-4. In the **General** tab, check **Unblock**, then click **Apply** and **OK**. This option may not appear if Windows has not blocked the file.
-5. Open Windows Terminal or PowerShell with the GTA IV game folder as the current working directory.
-6. Run the following command:
+### Option 1: Run the Script
 
-   `powershell -ExecutionPolicy Bypass -File .\Patch-SocialClubLog.ps1`
+1. Place `Patch-SocialClubLog.ps1` in the GTA IV game folder, alongside `socialclub.dll`.
+2. Right-click the downloaded `.ps1` file, select **Properties**, check **Unblock**, then click **Apply** and **OK**. *(Note: If the Unblock option is not shown, skip this step).*
+3. Right-click the `.ps1` file and select **Run with PowerShell**.
 
-   **Important:** The script MUST be run with the GTA IV game folder as the current working directory. Simply placing the script in the game folder is not sufficient if PowerShell is opened in a different directory.
+### Option 2: Run It in Terminal
+
+1. Place `Patch-SocialClubLog.ps1` in the GTA IV game folder.
+2. Right-click an empty space inside the game folder and select **Open in Terminal**.
+3. Open `Patch-SocialClubLog.ps1` in a text editor and copy its entire contents.
+4. Paste the script into the Terminal window and press **Enter**.
+
+> [!IMPORTANT]
+> The script must run with the GTA IV game folder as the current working directory. Read the messages displayed by the script and follow any instructions if an error occurs.
 
 7. Read the messages displayed by the script. It should stop without modifying the DLL if the file is missing or the original signature is not found exactly once.
 8. If the patch succeeds, keep the backup until you have tested the game and confirmed that it works as expected.
