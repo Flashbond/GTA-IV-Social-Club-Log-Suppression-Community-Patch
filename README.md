@@ -50,8 +50,8 @@ Close GTA IV before running the patch.
 4. Paste the script into the Terminal window and press **Enter**.
 
 > [!IMPORTANT]
-> The script must run with the GTA IV game folder as the current working directory. Read the messages displayed by the script and follow any instructions if an error occurs.
-> If the patch succeeds, keep the backup until you have tested the game and confirmed that it works as expected.
+> * The script must run with the GTA IV game folder as the current working directory. Read the messages displayed by the script and follow any instructions if an error occurs.
+> * If the patch succeeds, keep the backup until you have tested the game and confirmed that it works as expected.
 
 ## Backup and Restore
 
