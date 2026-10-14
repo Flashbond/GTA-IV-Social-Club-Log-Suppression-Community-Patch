@@ -52,8 +52,8 @@ Close GTA IV before running the patch.
 > [!IMPORTANT]
 > The script must run with the GTA IV game folder as the current working directory. Read the messages displayed by the script and follow any instructions if an error occurs.
 
-7. Read the messages displayed by the script. It should stop without modifying the DLL if the file is missing or the original signature is not found exactly once.
-8. If the patch succeeds, keep the backup until you have tested the game and confirmed that it works as expected.
+* Read the messages displayed by the script. It should stop without modifying the DLL if the file is missing or the original signature is not found exactly once.
+* If the patch succeeds, keep the backup until you have tested the game and confirmed that it works as expected.
 
 ## Backup and Restore
 
