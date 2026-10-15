@@ -44,10 +44,9 @@ Close GTA IV before running the patch.
 
 ### Option 2: Run It in Terminal
 
-1. Place `Patch-SocialClubLog.ps1` in the GTA IV game folder.
-2. Right-click an empty space inside the game folder and select **Open in Terminal**.
-3. Open `Patch-SocialClubLog.ps1` in a text editor and copy its entire contents.
-4. Paste the script into the Terminal window and press **Enter**.
+1. Right-click an empty space inside the game folder and select **Open in Terminal**.
+1. Copy the entire content of `Patch-SocialClubLog.ps1` file.
+1. Paste the script into the Terminal window and press **Enter**.
 
 > [!IMPORTANT]
 > * The script must run with the GTA IV game folder as the current working directory. Read the messages displayed by the script and follow any instructions if an error occurs.
